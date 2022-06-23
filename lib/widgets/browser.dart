@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class Browser extends StatefulWidget {
-  Browser({Key? key}) : super(key: key);
+  const Browser({Key? key}) : super(key: key);
 
   @override
   State<Browser> createState() => _BrowserState();
